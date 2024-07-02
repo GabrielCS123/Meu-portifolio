@@ -1,0 +1,13 @@
+@import url("estilos/footer.css");
+@import url("estilos/main.css");
+@import url("estilos/header.css");
+
+:root {
+    --azul: #1d0af7;
+    --azul2: #0558f2;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
