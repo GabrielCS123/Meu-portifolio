@@ -20,7 +20,8 @@
     margin-left: 1em;
     text-decoration: none;
     font-family: "Rubik", sans-serif;
-    color: rgb(47, 47, 47);;    
+    color: rgb(47, 47, 47);
+    font-weight: 500;
 }
 
 .titulo_header {
@@ -32,7 +33,7 @@
 
 .titulo_header a {
     text-decoration: none;
-    color: rgb(47, 47, 47);;
+    color: rgb(47, 47, 47);
 }
 
 .link_header:hover {
@@ -62,6 +63,7 @@
 .link_menu_aberto {
     margin: 1em;
     color: rgb(47, 47, 47);;
+    font-weight: 500;   
     text-decoration: none;
     font-family: "Rubik", sans-serif;
 }
