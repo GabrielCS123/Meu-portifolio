@@ -9,7 +9,7 @@
     backdrop-filter: blur(10px);
     padding-top: 1em;
     padding-bottom: 1em;
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(83, 83, 83);
 }
 
 .secao_links_header {
@@ -20,19 +20,19 @@
     margin-left: 1em;
     text-decoration: none;
     font-family: "Rubik", sans-serif;
-    color: white;
+    color: rgb(47, 47, 47);;    
 }
 
 .titulo_header {
     font-family: "Play", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     margin-left: .5em;
 }
 
 .titulo_header a {
     text-decoration: none;
-    color: white;
+    color: rgb(47, 47, 47);;
 }
 
 .link_header:hover {
@@ -53,7 +53,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    background-color: #002cb1e7;
+    background-color: #529fbde7;
     right: 0;
     top: 4em;
     padding: 2em;
@@ -61,7 +61,7 @@
 
 .link_menu_aberto {
     margin: 1em;
-    color: white;
+    color: rgb(47, 47, 47);;
     text-decoration: none;
     font-family: "Rubik", sans-serif;
 }
