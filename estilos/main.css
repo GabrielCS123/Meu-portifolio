@@ -47,7 +47,7 @@ main {
 .titulo_projetos_main {
     font-size: 5em;
     font-family: "Rubik", sans-serif;
-    margin-bottom: 2em;
+    margin-bottom: 4em;
 }
 
 .titulo_habilidades_main {
@@ -164,7 +164,7 @@ main {
     }
 
     .titulo_habilidades_main {
-        margin-bottom: -2em;
+        margin-bottom: 0em;
     }
 
     .botao_menu {
