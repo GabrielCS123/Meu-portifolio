@@ -5,6 +5,7 @@ footer {
 .titulo_contato_main {
     font-size: 5em;
     font-family: "Rubik", sans-serif;
+    color: #1b1b1b;
     margin-bottom: 2em;
 }
 
@@ -38,7 +39,7 @@ footer {
     font-family: "Rubik", sans-serif;
     font-size: 2em;
     text-decoration: none;
-    color: black;
+    color: #1b1b1b;
     margin-left: 1em;
 }
 
