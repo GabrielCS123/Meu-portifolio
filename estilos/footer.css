@@ -14,8 +14,10 @@ footer {
     align-items: center;
     margin: 0em -1em -1em -1em;
     padding: 10em 5em;
-    /*background: linear-gradient(0deg, #e1ecd6, #aee1d3);*/
-    background: linear-gradient(0deg, #5dc4f3, #2158ec);
+    /*background: linear-gradient(0deg, #e1ecd6, #aee1d3);
+    background: linear-gradient(0deg, #5dc4f3, #2158ec);*/
+    background-color: #5dc4f3;
+    background: linear-gradient(0deg, #c1e0f0, #5dc4f3);
     margin-top: -1px;
 }
 

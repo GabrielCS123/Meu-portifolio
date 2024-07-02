@@ -6,13 +6,16 @@ main {
 .secao_principal {
     margin: 0 -1em;
     padding: 15em 5em;
-    /*background: linear-gradient(0deg, #49cccc, #16c1c8);*/
-    background: linear-gradient(0deg, #0b3ac5, #002bb1);
+    /*background: linear-gradient(0deg, #49cccc, #16c1c8);
+    background: linear-gradient(0deg, #0b3ac5, #002bb1);*/
+    background-color: #5dc4f3;
+    background: linear-gradient(0deg, #5dc4f3, #347fd4);
 }
 
 .titulo_secao_principal {
     font-size: 5em;
     font-family: "Rubik", sans-serif;
+    color: #1b1b1b;
     margin-bottom: .5em;
 }
 
@@ -20,6 +23,7 @@ main {
 .texto_principal {
     font-size: 2em;
     font-family: "Rubik", sans-serif;
+    color: #1b1b1b;
 }
 
 #projetos {
@@ -28,8 +32,9 @@ main {
     align-items: center;
     margin: 0em -1em;
     padding: 10em 5em;
-    /*background: linear-gradient(0deg, #7cd7cf, #49cccc);*/
-    background: linear-gradient(0deg, #1649d8, #0b3ac5);
+    /*background: linear-gradient(0deg, #7cd7cf, #49cccc);
+    background: linear-gradient(0deg, #1649d8, #0b3ac5);*/
+    background-color: #5dc4f3;
     margin-top: -1px;
 }
 
@@ -39,8 +44,9 @@ main {
     align-items: center;
     margin: 0em -1em;
     padding: 10em 5em;
-    /*background: linear-gradient(0deg, #aee1d3, #7cd7cf);*/
-    background: linear-gradient(0deg, #2158ec, #1649d8);
+    /*background: linear-gradient(0deg, #aee1d3, #7cd7cf);
+    background: linear-gradient(0deg, #2158ec, #1649d8);*/
+    background-color: #5dc4f3;
     margin-top: -1px;
 }
 
