@@ -15,10 +15,19 @@ main {
 }
 
 .titulo_secao_principal {
+    display: flex;
     font-size: 5em;
     font-family: "Rubik", sans-serif;
     color: #fff;
     margin-bottom: .5em;
+    white-space: nowrap
+}
+
+.titulo_secao_principal_cor {
+    background-image: linear-gradient(60deg, rgb(0, 20, 204), rgb(142, 9, 182));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -117,21 +126,32 @@ main {
     margin-top: -1px;
 }
 
-.titulo_projetos_main {
-    font-size: 5em;
-    font-family: "Rubik", sans-serif;
-    color: #fff;
-    margin: 0;
-    margin-bottom: 2em;
-}
-
 .titulo_habilidades_main {
     font-size: 5em;
     font-family: "Rubik", sans-serif;
     color: #fff;
     margin: 0;
     margin-bottom: 2em;
+
+    background-image: linear-gradient(60deg, rgb(0, 20, 204), rgb(142, 9, 182));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+.titulo_projetos_main {
+    font-size: 5em;
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 2em;
+
+    background-image: linear-gradient(60deg, rgb(0, 20, 204), rgb(142, 9, 182));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 .projeto {
     display: flex;
@@ -242,6 +262,11 @@ main {
     font-family: "Rubik", sans-serif;
     color: #fff;
     margin-bottom: 2em;
+
+    background-image: linear-gradient(60deg, rgb(0, 20, 204), rgb(142, 9, 182));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contato {
