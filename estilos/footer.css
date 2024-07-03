@@ -1,69 +1,12 @@
 footer {
-    background-color: #e1ecd6;
-}
-
-.titulo_contato_main {
-    font-size: 5em;
-    font-family: "Rubik", sans-serif;
-    color: #1b1b1b;
-    margin-bottom: 2em;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0em -1em -1em -1em;
-    padding: 10em 5em;
-    background-color: #5dc4f3;
-    background: linear-gradient(0deg, #c1e0f0, #5dc4f3);
-    margin-top: -1px;
-}
-
-#contato {
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-}
-
-#contato li {
-    margin: 1em;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-}
-
-#contato li a {
-    font-family: "Rubik", sans-serif;
-    font-size: 2em;
-    text-decoration: none;
-    color: #1b1b1b;
-    margin-left: 1em;
-}
-
-#contato li img {
-    width: 4em;
+    margin: -1.5em;
+    background-color: black;
 }
 
 .creditos {
     display: flex;
-    margin-right: auto;
-    margin-top:  5em;
-    margin-bottom: -6em;
     font-family: "Play", sans-serif;
     font-size: 1.5em;
-}
-
-#contato li a:hover {
-    transition: opacity 0.3s ease;
-    color: rgb(0, 0, 0);
-}
-
-@media screen and (max-width: 1100px) {
-
-    .titulo_contato_main {
-        font-size: 2em;
-        text-align: center;
-    }
-
+    color: white;
+    margin-left: 1em;
 }

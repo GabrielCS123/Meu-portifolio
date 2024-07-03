@@ -1,18 +1,23 @@
+body {
+    background-color: #111;
+}
+
 main {
     padding: 1em;
     margin-top: -1em;
+    
 }
 
 .secao_principal {
     margin: 0 -1em;
     padding: 10em 5em;
-    background: linear-gradient(0deg, #5dc4f3, #347fd4);
+
 }
 
 .titulo_secao_principal {
     font-size: 5em;
     font-family: "Rubik", sans-serif;
-    color: #1b1b1b;
+    color: #fff;
     margin-bottom: .5em;
 }
 
@@ -20,7 +25,7 @@ main {
 .texto_principal {
     font-size: 2em;
     font-family: "Rubik", sans-serif;
-    color: #1b1b1b;
+    color: #fff;
 }
 
 /*botao intagram*/
@@ -82,7 +87,7 @@ main {
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #1b1b1b;
+    background: #222c33;
     left: 0;
     top: 0;
     border-radius: 10px;
@@ -100,7 +105,6 @@ main {
     align-items: center;
     margin: 0em -1em;
     padding: 10em 5em;
-    background-color: #5dc4f3;
     margin-top: -1px;
 }
 
@@ -110,22 +114,23 @@ main {
     align-items: center;
     margin: 0em -1em;
     padding: 10em 5em;
-    background-color: #5dc4f3;
     margin-top: -1px;
 }
 
 .titulo_projetos_main {
     font-size: 5em;
     font-family: "Rubik", sans-serif;
-    margin-bottom: 4em;
-    color: #1b1b1b;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 2em;
 }
 
 .titulo_habilidades_main {
     font-size: 5em;
     font-family: "Rubik", sans-serif;
+    color: #fff;
+    margin: 0;
     margin-bottom: 2em;
-    color: #1b1b1b;
 }
 
 .projeto {
@@ -134,14 +139,16 @@ main {
     align-items: center;
     margin-bottom: 10em;
     margin: 1em;
+    margin-top: 0;
 }
 
 .projeto p {
-    color: #1b1b1b;
+    color: #fff;
     text-decoration: none;
     font-size: 2em;
     font-family: "Play", sans-serif;
     margin-bottom: .5em;
+    margin-top: 0;
 }
 
 .projeto img {
@@ -185,19 +192,22 @@ main {
 
 .lista_projetos {
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 
 .lista_habilidades {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    padding: 0;
 }
 
 .lista_habilidades li {
     list-style-type: none;
     text-align: center;
-    margin-top: 10em;
-    color: #1b1b1b;
+    margin-bottom: 10em;
+    color: #fff;
 }
 
 .lista_habilidades img {
@@ -215,16 +225,116 @@ main {
     width: 2em;
 }
 
+.titulo_secao_principal {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(30, end) forwards;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.titulo_contato_main {
+    font-size: 5em;
+    font-family: "Rubik", sans-serif;
+    color: #fff;
+    margin-bottom: 2em;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em -1em -1em -1em;
+    padding: 10em 5em;
+    margin-top: -1px;
+}
+
+.contato ul {
+    padding: 0;
+}
+
+.contato li {
+    margin: 1em;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.contato li a {
+    font-family: "Rubik", sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1em;
+}
+
+.contato li img {
+    width: 4em;
+}
+
+.contato li a:hover {
+    transition: opacity 0.3s ease;
+    color: rgb(0, 0, 0);
+}
+
+.menu_aberto {
+    display: none;
+}
+
+.menu_aberto_ativado {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000e7;
+    padding: 1em;
+    top: 6.3em;
+    right: 0;
+}
+
+.link_menu_aberto {
+    margin: 1em;
+    color:#fff;
+    font-weight: 500;   
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.link_menu_aberto:hover {
+    transition: opacity 0.3s ease;
+    color: rgb(143, 143, 143);
+}
+
+@media screen and (max-width: 1100px) {
+
+    .titulo_contato_main {
+        font-size: 2em;
+        text-align: center;
+    }
+
+}
+
 @media screen and (max-width: 1100px) {
 
     .titulo_secao_principal {
         font-size: 2em;
         text-align: center;
     }
+    .secao_principal {
+        text-align: center;
+        justify-content: center;
+        padding-right: 0;
+        padding-left: 0;
+    }
 
     .texto_principal {
         font-size: 1em;
         text-align: center;
+        padding-right: 2em;
+        padding-left: 2em;
     }
 
     .lista_projetos,
@@ -232,14 +342,16 @@ main {
         display: flex;
         flex-direction: column;
     }
+    
+    #habilidades {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     .titulo_projetos_main,
     .titulo_habilidades_main {
         font-size: 2em;
-    }
-
-    .titulo_habilidades_main {
-        margin-bottom: 0em;
     }
 
     .botao_menu {

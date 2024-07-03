@@ -10,18 +10,21 @@
     padding-top: 1em;
     padding-bottom: 1em;
     border-bottom: 2px solid rgb(83, 83, 83);
+    padding-left: 5em;
+
 }
 
 .secao_links_header {
-    margin-right: 1em;
+    margin-right: 12em;
 }
 
 .link_header {
     margin-left: 1em;
     text-decoration: none;
     font-family: "Rubik", sans-serif;
-    color: rgb(47, 47, 47);
+    color: #fff;
     font-weight: 500;
+
 }
 
 .titulo_header {
@@ -33,44 +36,16 @@
 
 .titulo_header a {
     text-decoration: none;
-    color: rgb(47, 47, 47);
+    color: #fff;
 }
 
 .link_header:hover {
     transition: opacity 0.3s ease;
-    color: black;
+    color: rgb(143, 143, 143);
 }
 
 .botao_menu {
     display: none;
-}
-
-
-.menu_aberto {
-    display: none;
-}
-
-.menu_aberto_ativado {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    background-color: #529fbde7;
-    right: 0;
-    top: 4em;
-    padding: 2em;
-}
-
-.link_menu_aberto {
-    margin: 1em;
-    color: rgb(47, 47, 47);;
-    font-weight: 500;   
-    text-decoration: none;
-    font-family: "Rubik", sans-serif;
-}
-
-.link_menu_aberto:hover {
-    transition: opacity 0.3s ease;
-    color: black;
 }
 
 @media screen and (max-width: 1100px) {
