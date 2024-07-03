@@ -137,9 +137,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 10em;
     margin: 1em;
     margin-top: 0;
+    margin-bottom: 10em;
 }
 
 .projeto p {
@@ -160,7 +160,7 @@ main {
     position: relative;
     width: 300px;
     background-color: aliceblue;
-    border: 3px solid black;
+    border: 3px solid rgb(56, 56, 56);
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -249,7 +249,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 0em -1em -1em -1em;
-    padding: 10em 5em;
+    padding: 0em 5em 10em  5em;
     margin-top: -1px;
 }
 
