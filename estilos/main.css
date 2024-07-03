@@ -274,6 +274,7 @@ main {
 
 .contato li img {
     width: 4em;
+    filter: invert(80%);
 }
 
 .contato li a:hover {
