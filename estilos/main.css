@@ -12,7 +12,6 @@ main {
     margin: 0 -1.5em;
     padding: 10em 5em;
     background: linear-gradient(180deg, #111, #111, rgba(0, 20, 204, 0.116), rgba(142, 9, 182, 0.103));;
-
 }
 
 .titulo_secao_principal {
@@ -31,11 +30,16 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-
 .texto_principal {
     font-size: 2em;
     font-family: "Rubik", sans-serif;
     color: #fff;
+}
+
+.texto_contato {
+    font-size: .5em;
+    margin-top: 5em;
+    color: #83408b;
 }
 
 /*botao intagram*/
