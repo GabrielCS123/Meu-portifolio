@@ -42,16 +42,6 @@
     color: rgb(112, 0, 204);
 }
 
-.link_header:active {
-    transition: color 0.3s ease;
-    color: rgb(112, 0, 204);
-}
-
-.link_header:focus {
-    transition: color 0.3s ease;
-    color: rgb(112, 0, 204);
-}
-
 .botao_menu {
     display: none;
 }
