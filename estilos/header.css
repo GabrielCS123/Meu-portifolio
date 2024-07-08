@@ -23,7 +23,6 @@
     font-family: "Rubik", sans-serif;
     color: #fff;
     font-weight: 500;
-
 }
 
 .titulo_header {
@@ -39,8 +38,8 @@
 }
 
 .link_header:hover {
-    transition: opacity 0.3s ease;
-    color: rgb(143, 143, 143);
+    transition: color 0.3s ease;
+    color: rgb(112, 0, 204);
 }
 
 .botao_menu {
